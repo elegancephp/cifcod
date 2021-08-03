@@ -1,0 +1,25 @@
+{
+    "name": "elegance/cifcod",
+    "description": "Aplica cifra e codificação em strings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        },
+        "files": [
+            "./helper/function/cif.php",
+            "./helper/function/cod.php"
+        ]
+    },
+    "require": {
+        "elegance/phpextend": "^1.1",
+        "elegance/dirfile": "^1.0",
+        "elegance/import": "^1.0"
+    }
+}
